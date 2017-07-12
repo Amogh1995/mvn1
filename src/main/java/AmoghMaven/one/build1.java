@@ -17,7 +17,7 @@ public class build1 {
 	 {
 		 System.setProperty("webdriver.chrome.driver","E:/Amog java/chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
-			String expectedtitle="Google";
+			String expectedtitle="Googlye";
 			driver.get("http://google.com");
 			s=driver.getTitle();
 			Assert.assertEquals(s, expectedtitle,"This checks for the login");

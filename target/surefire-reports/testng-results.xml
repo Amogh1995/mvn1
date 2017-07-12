@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31" started-at="2017-07-11T17:21:51Z" finished-at="2017-07-11T17:21:51Z">
+  <suite name="Suite" duration-ms="5436" started-at="2017-07-12T02:49:18Z" finished-at="2017-07-12T02:49:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31" started-at="2017-07-11T17:21:51Z" finished-at="2017-07-11T17:21:51Z">
-      <class name="AmoghMaven.one.hello">
-        <test-method status="PASS" signature="main()[pri:0, instance:AmoghMaven.one.hello@2752f6e2]" name="main" duration-ms="16" started-at="2017-07-11T22:51:51Z" finished-at="2017-07-11T22:51:51Z">
+    <test name="Test" duration-ms="5436" started-at="2017-07-12T02:49:18Z" finished-at="2017-07-12T02:49:24Z">
+      <class name="AmoghMaven.one.build1">
+        <test-method status="PASS" signature="jb()[pri:0, instance:AmoghMaven.one.build1@7c30a502]" name="jb" duration-ms="5432" started-at="2017-07-12T08:19:18Z" finished-at="2017-07-12T08:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jb -->
+        <test-method status="PASS" signature="main()[pri:0, instance:AmoghMaven.one.build1@7c30a502]" name="main" duration-ms="1" started-at="2017-07-12T08:19:24Z" finished-at="2017-07-12T08:19:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-      </class> <!-- AmoghMaven.one.hello -->
+      </class> <!-- AmoghMaven.one.build1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
